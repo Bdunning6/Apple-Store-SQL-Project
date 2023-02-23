@@ -9,6 +9,6 @@
 5. [Summary](#Summary)
 
 
-## Link to published dashboard
-
+## Link to Published Dashboard
+[Link to Published Dashboard](https://app.powerbi.com/groups/ec280147-b21d-47d5-9dd9-0c3563bbde5c/reports/92904175-7424-4a6f-9bb7-32ff14232be0/ReportSection)
 
