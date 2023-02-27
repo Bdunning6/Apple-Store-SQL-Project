@@ -36,5 +36,59 @@ The data set was found on Kaggle and was collected using an API. The dataset is 
 
 ## SQL Code
 
+### Looking at which apps have the highest amount of total reviews.
+![image](https://user-images.githubusercontent.com/115194266/221688530-68da2685-530b-4f99-bf9c-62df3dcf5145.png)
+
+### Joining the two tables to get the results from the first query to see the app description for each app.
+![image](https://user-images.githubusercontent.com/115194266/221688745-d3a785bc-bd55-49f8-a463-d24936b9d449.png)
+
+### Finding the average amount of total reviews, supported languages and devices.
+![image](https://user-images.githubusercontent.com/115194266/221688860-590ff832-2fb3-40f1-93d3-431790225a15.png)
+
+### What's the most popular free app in terms of total reviews?
+![image](https://user-images.githubusercontent.com/115194266/221688952-940b38c5-719a-4c47-9a0f-ea95bf42c19c.png)
+
+### What's the most popular paid app in terms of total reviews?
+![image](https://user-images.githubusercontent.com/115194266/221689071-93b965aa-4413-4cc8-9394-5da0617d08c4.png)
+
+### Looking at the dataset, we can see there is a user rating for all the apps versions and the current version. Although this data set is old, we can still see if an update to an app has positively or negatively affected an apps rating.
+![image](https://user-images.githubusercontent.com/115194266/221689208-58685c16-a69d-43eb-8efe-f58c78c4614d.png)
+
+### Examining byte size of apps.
+![image](https://user-images.githubusercontent.com/115194266/221689639-3bae0025-eacb-4df0-ad3b-db821ebcf0e6.png)
+
+### What does the number of free and paid apps look like for each genre?
+![image](https://user-images.githubusercontent.com/115194266/221689760-5a3256b3-f215-439e-b6c4-54ae75b219e9.png)
+
+### What are the average prices for each genre of app?
+![image](https://user-images.githubusercontent.com/115194266/221689831-e0ca147e-cf0d-4486-9570-83a6bc16976f.png)
+
+### Using a windows function to see the price ranking of each genre and app.
+![image](https://user-images.githubusercontent.com/115194266/221690064-85f6f45a-ffd5-46f7-b8d5-4f07ae4c57fe.png)
+
+### Looking at which genre has the highest total number of reviews. 
+![image](https://user-images.githubusercontent.com/115194266/221690147-3d58e76e-ea46-4f8a-9449-1ca2ab16ab48.png)
+
+### Creating a CTE to analyze successful food and beverages apps.
+![image](https://user-images.githubusercontent.com/115194266/221690350-57231698-ba50-4fa0-bd6c-7865549a96a9.png)
+
+### Creating a temp table using averages.
+![image](https://user-images.githubusercontent.com/115194266/221690519-aa6aa1bc-623b-4782-80b1-59cd8b537d15.png)
+
+### Creating a view to be used later for visualizations.
+![image](https://user-images.githubusercontent.com/115194266/221690795-7192f073-d566-4429-a727-bc3f93fa7525.png)
+
+### Additonal views for good and bad app updates.
+![image](https://user-images.githubusercontent.com/115194266/221691076-09a25993-5825-44f0-a554-3dee106c1d62.png)
+
+### Third View to find the total amount of apps as well as the number of free and paid apps.
+![image](https://user-images.githubusercontent.com/115194266/221691258-7bd31636-e8cf-476c-b228-669fc6a6d922.png)
+
+### Fourth View to find most popular app for each genre.
+![image](https://user-images.githubusercontent.com/115194266/221691481-098880cb-62a4-43c5-b39c-94433bb0a68e.png)
+
+## Visualizations
+
+### 
 
 
