@@ -6,7 +6,8 @@
 2. [Introduction](#introduction)
 3. [Dataset](#dataset)
 4. [SQL Code](#sql-code)
-5. [Summary](#Summary)
+5. [Visualizations](#visualizations)
+6. [Summary](#summary)
 
 
 ## Link to Published Dashboard
@@ -89,6 +90,17 @@ The data set was found on Kaggle and was collected using an API. The dataset is 
 
 ## Visualizations
 
-### 
+### App Store Popular Apps and Genres
+![image](https://user-images.githubusercontent.com/115194266/222258895-636b12d8-f782-4a78-89ba-42008c10dfff.png)
+
+### App Store Prices
+![image](https://user-images.githubusercontent.com/115194266/222259708-9e314266-5fb1-4b4c-be60-b67160b11832.png)
+
+### App Store Accessibility/Compatibility 
+![image](https://user-images.githubusercontent.com/115194266/222259791-0a572743-082d-4b9e-888e-0dfa6217b114.png)
+
+### App Store Updates
+![image](https://user-images.githubusercontent.com/115194266/222259930-b6a723f8-7cfd-403c-8d6b-c3098e9bf64a.png)
+
 
 
