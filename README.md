@@ -102,6 +102,6 @@ The data set was found on Kaggle and was collected using an API. The dataset is 
 ### App Store Updates
 ![image](https://user-images.githubusercontent.com/115194266/222259930-b6a723f8-7cfd-403c-8d6b-c3098e9bf64a.png)
 
-### Summary
+## Summary
 
 
