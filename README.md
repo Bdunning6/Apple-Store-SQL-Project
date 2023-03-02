@@ -14,7 +14,7 @@
 [Link to Published Dashboard](https://app.powerbi.com/groups/ec280147-b21d-47d5-9dd9-0c3563bbde5c/reports/92904175-7424-4a6f-9bb7-32ff14232be0/ReportSection)
 
 ## Introduction
-With over a million apps currently on the Apple app store, apps have become a way of interfacing with software on a mobile device. For instance, social media apps such as Facebook and Instagram gives users the power to connect with millions of people across the world while gaming apps give a unique entertainment experience from a portable handheld device. This begs the question: what are the characteristics of apps on the app store? Through this project, I will analyze the app store in order to find some key insights using SQL for data manipulation and PowerBI to visualize the results.
+With over a million apps currently on the Apple app store, apps have become a way of interfacing with software on a mobile device. Social media apps such as Facebook and Instagram gives users the power to connect with millions of people across the world while gaming apps give a unique entertainment experience from a portable handheld device. This begs the question: what are the characteristics of apps on the app store? Through this project, I will analyze the app store in order to find some key insights using SQL for data manipulation and PowerBI to visualize the results.
 
 ## Dataset
 The data set was found on Kaggle and was collected using an API. The dataset is a csv file. The data was collected in July 2017 and has a little over 7000 apps. Although this number pales in comparison to the total number of apps currently found on the app store, it can still serve as a way to generate some general insights. There are 7197 rows and 16 columns. The columns are:
@@ -104,4 +104,12 @@ The data set was found on Kaggle and was collected using an API. The dataset is 
 
 ## Summary
 
+### Popular Apps and Genres
+Through this exploratory analysis, some key insights were found. The first dashboard gives a general overview on some of the characteristics of Apple's app store. One of the biggest insights is that the most dominant genre on the app store is games, with 3862 being gaming apps out of the 7917 total apps from the dataset. Social networking, music and reference apps had the highest amount of average total reviews, indicating that these app genres are consistent in receiving a high amount feedback from customers. Looking at "Most Reviewed App For Each Genre" chart, we can see that Facebook, Instagram and Clash of Clans have dominated their respective genres with over 2 million reviews. Facebook was the most reviewed app on the Appstore with approximately 2.97 million reviews. This is much higher than the app store average of about 12 thousand total reviews. Although Facebook and Instagram are some the most popular and reviewed apps, the social media and photography genre is much smaller in comparison to the games app. A reason why this might be is because apps like Facebook, Instagram and Twitter dominant the social media genre which gives little room for other apps to be successful.
+
+### App Store Prices
+
+### App Store Acessibilility/Compatibiliity 
+
+### App Store Updates 
 
