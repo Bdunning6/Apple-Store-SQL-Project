@@ -40,67 +40,119 @@ The data set was found on Kaggle and was collected using an API. The dataset is 
 ### Looking at which apps have the highest amount of total reviews.
 ![image](https://user-images.githubusercontent.com/115194266/221688530-68da2685-530b-4f99-bf9c-62df3dcf5145.png)
 
+### Output
+![image](https://user-images.githubusercontent.com/115194266/227736929-37a772d2-7622-48ad-9398-cc75bd488966.png)
+
 ### Joining the two tables to get the results from the first query to see the app description for each app.
 ![image](https://user-images.githubusercontent.com/115194266/221688745-d3a785bc-bd55-49f8-a463-d24936b9d449.png)
+
+### Output
+![image](https://user-images.githubusercontent.com/115194266/227737085-5b021d40-7551-4076-bdd4-ad57134fd6cb.png)
 
 ### Finding the average amount of total reviews, supported languages and devices.
 ![image](https://user-images.githubusercontent.com/115194266/221688860-590ff832-2fb3-40f1-93d3-431790225a15.png)
 
+### Output
+![image](https://user-images.githubusercontent.com/115194266/227737100-5548357c-abfe-4915-95e3-a7161f308930.png)
+
 ### What's the most popular free app in terms of total reviews?
 ![image](https://user-images.githubusercontent.com/115194266/221688952-940b38c5-719a-4c47-9a0f-ea95bf42c19c.png)
+
+### Output
+![image](https://user-images.githubusercontent.com/115194266/227737121-6f107e16-f375-490f-9114-f06a4a51e831.png)
 
 ### What's the most popular paid app in terms of total reviews?
 ![image](https://user-images.githubusercontent.com/115194266/221689071-93b965aa-4413-4cc8-9394-5da0617d08c4.png)
 
+### Output
+![image](https://user-images.githubusercontent.com/115194266/227737178-1a8d0c3f-786d-4a85-9cd6-d8d9d12eb7ea.png)
+
 ### Looking at the dataset, we can see there is a user rating for all the apps versions and the current version. Although this data set is old, we can still see if an update to an app has positively or negatively affected an apps rating.
 ![image](https://user-images.githubusercontent.com/115194266/221689208-58685c16-a69d-43eb-8efe-f58c78c4614d.png)
+
+### Output
+![image](https://user-images.githubusercontent.com/115194266/227738435-dc872c4c-3b6c-4ccd-86d2-9a32bff66a30.png)
 
 ### Examining byte size of apps.
 ![image](https://user-images.githubusercontent.com/115194266/221689639-3bae0025-eacb-4df0-ad3b-db821ebcf0e6.png)
 
+### Output
+![image](https://user-images.githubusercontent.com/115194266/227738468-7214053c-fe03-40c9-b10a-eb95cba35bbe.png)
+
 ### What does the number of free and paid apps look like for each genre?
 ![image](https://user-images.githubusercontent.com/115194266/221689760-5a3256b3-f215-439e-b6c4-54ae75b219e9.png)
+
+### Output
+![image](https://user-images.githubusercontent.com/115194266/227738491-ff1f782c-d27c-4cf8-a8af-0a4bcf6212e0.png)
 
 ### What are the average prices for each genre of app?
 ![image](https://user-images.githubusercontent.com/115194266/221689831-e0ca147e-cf0d-4486-9570-83a6bc16976f.png)
 
+### Output
+![image](https://user-images.githubusercontent.com/115194266/227738507-5f46fe8f-1401-4fee-9e7e-5f209fa9907f.png)
+
 ### Using a windows function to see the price ranking of each genre and app.
 ![image](https://user-images.githubusercontent.com/115194266/221690064-85f6f45a-ffd5-46f7-b8d5-4f07ae4c57fe.png)
+
+### Output
+![image](https://user-images.githubusercontent.com/115194266/227738528-5a54fa73-b3a4-497e-a5a1-7b145c982a59.png)
 
 ### Looking at which genre has the highest total number of reviews. 
 ![image](https://user-images.githubusercontent.com/115194266/221690147-3d58e76e-ea46-4f8a-9449-1ca2ab16ab48.png)
 
+### Output
+![image](https://user-images.githubusercontent.com/115194266/227738538-89a3615a-276b-4f21-a4ae-7b72b012bbb0.png)
+
 ### Creating a CTE to analyze successful food and beverages apps.
 ![image](https://user-images.githubusercontent.com/115194266/221690350-57231698-ba50-4fa0-bd6c-7865549a96a9.png)
+
+### Output
+![image](https://user-images.githubusercontent.com/115194266/227738556-1b448cb0-86d9-463d-b764-32aa0520a08e.png)
 
 ### Creating a temp table using averages.
 ![image](https://user-images.githubusercontent.com/115194266/221690519-aa6aa1bc-623b-4782-80b1-59cd8b537d15.png)
 
+### Output
+![image](https://user-images.githubusercontent.com/115194266/227738587-8ad32ba8-dd06-4f9f-b140-df3080ccbf04.png)
+
 ### Creating a view to be used later for visualizations.
 ![image](https://user-images.githubusercontent.com/115194266/221690795-7192f073-d566-4429-a727-bc3f93fa7525.png)
+
+### Output
+![image](https://user-images.githubusercontent.com/115194266/227738614-59c1c0ff-bfa6-4c4a-9abd-832fe58928fc.png)
 
 ### Additonal views for good and bad app updates.
 ![image](https://user-images.githubusercontent.com/115194266/221691076-09a25993-5825-44f0-a554-3dee106c1d62.png)
 
+### Output
+![image](https://user-images.githubusercontent.com/115194266/227738639-45384c44-070d-4af8-8656-fc70dcd536a1.png)
+![image](https://user-images.githubusercontent.com/115194266/227738656-7517a78f-9331-4d7c-8be3-e38285508e80.png)
+
 ### Third View to find the total amount of apps as well as the number of free and paid apps.
 ![image](https://user-images.githubusercontent.com/115194266/221691258-7bd31636-e8cf-476c-b228-669fc6a6d922.png)
+
+### Output
+![image](https://user-images.githubusercontent.com/115194266/227738679-59bb8a9b-c9a3-40bd-a576-aa02498ffb32.png)
 
 ### Fourth View to find most popular app for each genre.
 ![image](https://user-images.githubusercontent.com/115194266/221691481-098880cb-62a4-43c5-b39c-94433bb0a68e.png)
 
+### Output
+![image](https://user-images.githubusercontent.com/115194266/227738698-ae09684d-7d87-4507-82a7-843f63aa0351.png)
+
 ## Visualizations
 
 ### App Store Popular Apps and Genres
-![image](https://user-images.githubusercontent.com/115194266/222258895-636b12d8-f782-4a78-89ba-42008c10dfff.png)
+![image](https://user-images.githubusercontent.com/115194266/227738350-728ccc76-0b5b-4524-a8e4-e78888e4f4f4.png)
 
 ### App Store Prices
-![image](https://user-images.githubusercontent.com/115194266/222259708-9e314266-5fb1-4b4c-be60-b67160b11832.png)
+![image](https://user-images.githubusercontent.com/115194266/227738370-de4f4218-dfaf-4cf7-afd3-b266b458bb4f.png)
 
 ### App Store Accessibility/Compatibility 
-![image](https://user-images.githubusercontent.com/115194266/222259791-0a572743-082d-4b9e-888e-0dfa6217b114.png)
+![image](https://user-images.githubusercontent.com/115194266/227738387-2c39881f-2533-44bf-a9ac-3ae97744f2e5.png)
 
 ### App Store Updates
-![image](https://user-images.githubusercontent.com/115194266/222259930-b6a723f8-7cfd-403c-8d6b-c3098e9bf64a.png)
+![image](https://user-images.githubusercontent.com/115194266/227738400-feb620e9-d94c-4ee4-b0d2-0158c7e405e3.png)
 
 ## Summary
 
@@ -115,4 +167,3 @@ An important part of a successful app is how accessible an app is and how compat
 
 ### App Store Updates 
 An advantageous part of an app's development is the ability to offer improvements and bug fixes even after the app is released via updates. But while app updates can improve an app’s reputation, bad updates can damage an app’s popularity by introducing bugs and unpopular features. This final dashboard contains two tables that represent the effects of good and bad updates. The tables contain the apps name, the user rating for all versions, the user rating for the current version and the difference between the two. The table on the left is ordered by the highest difference between the total rating and the current rating, which demonstrates which apps have successfully introduced good updates that improved their user rating. The table on the right contains the same information but instead of the highest rating difference it shows the lowest rating difference which represents apps that introduced bad updates. Although the initial release of an app is important, the updates can be seen as equally important as well. A good update may improve an app that has had a bad launch while a bad update may doom an app that had a flawless launch.
-
