@@ -77,7 +77,7 @@ The data set was found on Kaggle and was collected using an API. The dataset is 
 ![image](https://user-images.githubusercontent.com/115194266/221689639-3bae0025-eacb-4df0-ad3b-db821ebcf0e6.png)
 
 ### Output
-![image](https://user-images.githubusercontent.com/115194266/227738468-7214053c-fe03-40c9-b10a-eb95cba35bbe.png)
+![image](https://user-images.githubusercontent.com/115194266/227738787-e202d222-1d0c-42db-98c9-581f532eedb5.png)
 
 ### What does the number of free and paid apps look like for each genre?
 ![image](https://user-images.githubusercontent.com/115194266/221689760-5a3256b3-f215-439e-b6c4-54ae75b219e9.png)
