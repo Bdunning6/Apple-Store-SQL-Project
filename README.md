@@ -57,13 +57,13 @@ The data set was found on Kaggle and was collected using an API. The dataset is 
 ![image](https://user-images.githubusercontent.com/115194266/227737100-5548357c-abfe-4915-95e3-a7161f308930.png)
 
 ### What's the most popular free app in terms of total reviews?
-![image](https://user-images.githubusercontent.com/115194266/221688952-940b38c5-719a-4c47-9a0f-ea95bf42c19c.png)
+![image](https://user-images.githubusercontent.com/115194266/229373714-55e665a0-503b-410f-ba6f-2cb74acf7c53.png)
 
 ### Output
 ![image](https://user-images.githubusercontent.com/115194266/227737121-6f107e16-f375-490f-9114-f06a4a51e831.png)
 
 ### What's the most popular paid app in terms of total reviews?
-![image](https://user-images.githubusercontent.com/115194266/221689071-93b965aa-4413-4cc8-9394-5da0617d08c4.png)
+![image](https://user-images.githubusercontent.com/115194266/229373989-e7d98e62-49bc-42c6-a293-2e1d62e0fe2a.png)
 
 ### Output
 ![image](https://user-images.githubusercontent.com/115194266/227737178-1a8d0c3f-786d-4a85-9cd6-d8d9d12eb7ea.png)
@@ -87,7 +87,7 @@ The data set was found on Kaggle and was collected using an API. The dataset is 
 ![image](https://user-images.githubusercontent.com/115194266/227738491-ff1f782c-d27c-4cf8-a8af-0a4bcf6212e0.png)
 
 ### What are the average prices for each genre of app?
-![image](https://user-images.githubusercontent.com/115194266/221689831-e0ca147e-cf0d-4486-9570-83a6bc16976f.png)
+![image](https://user-images.githubusercontent.com/115194266/229374340-12b303b6-2f84-44ca-bd6c-f5dfaff73d90.png)
 
 ### Output
 ![image](https://user-images.githubusercontent.com/115194266/227738507-5f46fe8f-1401-4fee-9e7e-5f209fa9907f.png)
