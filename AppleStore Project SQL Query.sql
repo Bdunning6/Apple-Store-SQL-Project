@@ -35,7 +35,7 @@ ORDER BY rating_count_tot desc;
 SELECT track_name, price, user_rating, rating_count_tot, prime_genre
 FROM AppleStore$
 WHERE price = '0'
-order by rating_count_tot desc;
+ORDER BY rating_count_tot desc;
 
 
 
@@ -44,7 +44,7 @@ order by rating_count_tot desc;
 SELECT track_name, price, user_rating, rating_count_tot, prime_genre
 FROM AppleStore$
 WHERE price !='0'
-order by rating_count_tot desc;
+ORDER BY rating_count_tot desc;
 
 
 
@@ -96,13 +96,16 @@ ORDER BY total_free_apps desc, total_paid_apps desc;
 
 SELECT prime_genre, AVG(price) as average_genre_prices
 FROM AppleStore$
-group by prime_genre
+GROUP BY prime_genre
 ORDER BY AVG(price) desc;
+
+
 
 -- Using a windows function to see the price ranking of each genre and app.
 
 SELECT track_name, prime_genre, price, rating_count_tot, RANK() OVER (partition by prime_genre order by price desc) as price_rank
 FROM AppleStore$
+
 
 
 -- Looking at which genre has the highest total number of reviews. 
@@ -111,6 +114,20 @@ SELECT prime_genre, SUM(rating_count_tot) as total_review_number
 FROM AppleStore$
 GROUP BY prime_genre
 ORDER BY SUM(rating_count_tot) desc;
+
+
+
+-- Using a subquery to find out what the most popular app is for each genre.
+
+SELECT *
+FROM (
+	SELECT track_name,prime_genre, rating_count_tot,
+	rank() over(partition by prime_genre order by rating_count_tot desc) as rk
+	FROM AppleStore$
+	) x
+WHERE rk = 1
+ORDER BY rating_count_tot desc;
+
 
 
 -- Creating a CTE to analyze successful food and beverages apps.
