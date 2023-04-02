@@ -104,6 +104,12 @@ The data set was found on Kaggle and was collected using an API. The dataset is 
 ### Output
 ![image](https://user-images.githubusercontent.com/115194266/227738538-89a3615a-276b-4f21-a4ae-7b72b012bbb0.png)
 
+### Using a subquery to find out what the most popular app is for each genre.
+![image](https://user-images.githubusercontent.com/115194266/229374537-f82af7fe-64f0-4a97-b3f5-205d0682bc04.png)
+
+### Output
+![image](https://user-images.githubusercontent.com/115194266/229374552-a7785202-00e2-418c-80ed-dc9f363f8ece.png)
+
 ### Creating a CTE to analyze successful food and beverages apps.
 ![image](https://user-images.githubusercontent.com/115194266/221690350-57231698-ba50-4fa0-bd6c-7865549a96a9.png)
 
